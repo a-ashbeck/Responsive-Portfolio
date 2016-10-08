@@ -1,0 +1,279 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+  color: #777777;
+  overflow: auto;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url(../images/cork-wallet.jpg);
+  box-sizing: border-box;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20.8px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+a {
+  float: left;
+  text-decoration: none;
+  padding: 0;
+}
+
+a:hover {
+  color: #FF5700;
+}
+
+/*Header styles*/
+header {
+  background-color: #ffffff;
+  height: 60px;
+  width: 100%;
+  border-bottom: 2px solid #cccccc;
+}
+
+.header {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+a h1 {
+  padding: 14px;
+  height: 58px;
+  text-align: center;
+  background-color: #4aaaa5;
+  color: #ffffff;
+}
+
+/*Navigation styles*/
+nav {
+  float: right;
+}
+
+nav a {
+  margin: 22px 7px 22px 7px;
+}
+
+.a-border {
+  border-width: 0 1px;
+  border-color: #cccccc;
+  border-style: solid;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+/*Content Styles*/
+.main-content {
+  border-color: #dddddd;
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  overflow: scroll;
+  padding-top: 40px;
+  min-height: 100%;
+}
+
+.main-content:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.main-section {
+  float: left;
+  background-color: #ffffff;
+  width: 650px;
+  border: 1px solid #cccccc;
+  padding: 30px;
+  /*margin-bottom: 40px;*/
+}
+
+.side-bar {
+  float: right;
+  background-color: #ffffff;
+  width: 270px;
+  border: 1px solid #cccccc;
+  padding: 20px;
+}
+
+.social-media {
+  width: 70px;
+  margin: 0;
+  padding: 0;
+}
+
+.h1-main {
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.h2-side {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 18px;
+  margin-bottom: 20px;
+}
+
+.social-center {
+  margin: 0px 9px 0px 9px;
+}
+
+/*About image styles*/
+#alan-face {
+  padding: 6px 10px 0px 0;
+  height: 180px;
+  float: left;
+}
+
+/* Form content styles */
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 4px 8px;
+  resize: none;
+  margin: 6px 0px 22px 0px;
+  border: 1px solid #cccccc;
+  font-size: 12px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 4px 8px;
+  display: inline-block;
+  margin: 6px 0px 22px 0px;
+  border: 1px solid #cccccc;
+  font-size: 12px;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 4px 8px;
+  display: inline-block;
+  margin: 6px 0px 22px 0px;
+  border: 1px solid #cccccc;
+  font-size: 12px;
+}
+
+button {
+  background-color: #4aaaa5;
+  border: none;
+  color: #ffffff;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*Portfolio styles*/
+.a-port {
+  width: 276px;
+  position: relative;
+}
+
+.banner {
+  width: 276px;
+  height: 62px;
+  background-color: #4aaaa5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  padding: 14px;
+}
+
+.banner h3 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: normal;
+  padding: 6px;
+}
+
+.portfolio-images {
+  width: 276px;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  float: left;
+  position: relative;
+}
+
+.portfolio-images:hover {
+  opacity: 0.75;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+/* Footer styles */
+footer {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background-color: #666666;
+  text-align: center;
+  padding: 16px;
+  border-top: 6px solid #4aaaa5;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+/*Morph link functionality styles*/
+.morph {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.morph:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+@@media screen and (max-width: 960px) {
+
+}
+
+@@media screen and (max-width: 768px) {
+
+}
+
+@@media screen and (max-width: 740px) {
+
+}
