@@ -269,12 +269,42 @@ footer p {
 
 @media only screen and (max-width : 980px) {
   .main-content {
+    width: 720px;
+  }
+
+  .main-section {
+    width: 420px
+  }
+
+  .header {
+    width: 720px;
+  }
+
+  .a-port {
     width: 100%;
+    height: 100%;
+    float: left;
+  }
+
+  .portfolio-images {
+    width: 100%;
+    height: 100%;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  #alan-face {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
   }
 }
 
 @media only screen and (max-width : 768px) {
   .main-content {
+    padding: 40px 20px;
     width: 100%;
   }
 
@@ -283,9 +313,42 @@ footer p {
   }
 
   .side-bar {
-    clear: both;
     width: 100%;
     float: left;
+    margin-top: 40px;
+  }
+
+  .header {
+    width: 100%;
+    padding: 0px 20px;
+  }
+
+  .a-port {
+    width: 314px;
+    position: relative;
+  }
+
+  .portfolio-images {
+    width: 100%;
+    height: 100%;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  .right {
+    float: right;
+  }
+
+  .left {
+    float: left;
+  }
+
+  #alan-face {
+    width: 334px;
+    margin-bottom: 16px;
+    margin-right: 16px;
   }
 }
 
@@ -301,7 +364,8 @@ footer p {
 
   .side-bar {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 
   header {
@@ -323,6 +387,8 @@ footer p {
 
   .header {
     overflow: visible;
+    width: 100%;
+    padding: 0;
   }
 
   .brand-link {
